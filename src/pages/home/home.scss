@@ -1,0 +1,223 @@
+page-home {
+    .toolbar-background {
+        border-color: color($colors, dinerPink);
+        background: color($colors, dinerPink);
+    }
+    ion-header ion-icon {
+        color: color($colors, dinerWhite);
+    }
+    ion-header .toolbar .bar-button-menutoggle .button-inner {
+        color: color($colors, dinerWhite);
+    }
+    ion-header .left-head-icon {
+        background: transparent;
+        float: right;
+        box-shadow: none;
+    }
+    ion-header .left-head-icon.activated {
+        background: transparent;
+        box-shadow: none;
+    }
+    ion-header .left-head-icon ion-icon {
+        font-size: 24px;
+    }
+    ion-header {
+        text-align: center;
+    }
+    .logo-head {
+        width: 50%;
+        margin-top: 3%;
+    }
+    .top-img-div {
+        width: 100%;
+        float: left;
+        margin-top: 5%;
+    }
+    .top-img-div img {
+        width: 40%;
+        float: right;
+    }
+    .top-txt {
+        font-size: 24px;
+        padding-left: 15%;
+        float: left;
+        width: 100%;
+        margin-top: -10%;
+    }
+    .top-txt p {
+        margin: auto;
+    }
+    .loc-input-div {
+        float: left;
+        width: 100%;
+        margin: auto;
+        /* position: relative; */
+        /* top: 3%; */
+        margin-top: 5%;
+    }
+    .loc-input-div .list {
+        width: 70%;
+        margin: auto;
+        border: 1.8px solid color($colors, dinerPink);
+    }
+    .loc-input-div .list .item-input-has-focus {
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .loc-input-div ion-icon {
+        float: right;
+        position: relative;
+        right: 18%;
+        z-index: 1;
+        margin-top: 2%;
+        font-size: 30px;
+        color: color($colors, dinerPink);
+    } //
+    //
+    //Custom-btn
+    //
+    .custom-div-btn {
+        width: 100%;
+        float: left;
+        margin-top: 5%;
+    }
+    .custom-btn {
+        width: 50%;
+        margin: auto;
+        height: 44px;
+        padding-top: 4%;
+        padding-left: 3%;
+        color: color($colors, dinerWhite);
+        background: color($colors, dinerPink);
+    }
+    .custom-btn p {
+        margin: auto;
+        float: left;
+    }
+    .custom-btn i {
+        float: left;
+        margin-right: 4%;
+    } //
+    //
+    //Custom-btn
+    //
+    .middle-img-div {
+        float: left;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 12%;
+    }
+    .middle-img-div img {
+        width: 70%;
+    }
+    .middle-right {
+        width: 25%;
+        float: right;
+        margin-top: 10%;
+    }
+    .middle-txt {
+        float: left;
+        width: 60%;
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+    .middle-txt p {
+        margin: auto;
+        width: 80%;
+        float: left;
+        color: color($colors, dinerGrey);
+    }
+    .middle-txt h3 {
+        margin: auto;
+        width: 90%;
+        float: left;
+        color: color($colors, dinerPink);
+    }
+    .scroller-cutom-div {
+        width: 100%;
+        float: left;
+        height: 100px;
+        margin-top: 5%;
+    }
+    .check-item-custom {
+        float: left;
+        width: 100%;
+        padding-left: 12%;
+        margin-top: 5%;
+    }
+    .check-item-custom .check-li {
+        width: 100%;
+        float: left;
+        margin-top: 1%;
+    }
+    .check-item-custom i {
+        float: left;
+        margin-right: 2%;
+        color: #8cca00;
+    }
+    .check-item-custom .check-li p {
+        margin: auto;
+        width: 80%;
+        float: left;
+        color: color($colors, dinerGrey);
+    }
+    .bottom-img-div img {
+        width: 45%;
+        float: right;
+        margin-right: 10%;
+        margin-top: 15%;
+    }
+    .left-icon {
+        width: 10%;
+        height: 100%;
+        float: left;
+    }
+    .scroll-div {
+        width: 80%;
+        height: 100%;
+        float: left;
+    }
+    .right-icon {
+        width: 10%;
+        height: 100%;
+        float: left;
+    }
+    .scroll-item {
+        width: 20%;
+        float: left;
+    }
+    .custScroller {
+        color: rgba(204, 204, 204, 0.4) !important;
+        font-size: 1em;
+        width: 100%;
+        margin-top: 0.99em;
+        height: 8.5em !important;
+    }
+    .wide-as-needed {
+        overflow: scroll;
+        white-space: nowrap;
+        height: 100%;
+        width: 80%;
+        float: left;
+    }
+    .scroller-cutom-div .scroll {
+        min-width: 100%;
+        overflow-x: auto;
+    }
+    .top-txt .top-txt-p1 {
+        color: color($colors, dinerPink)
+    }
+    .top-txt .top-txt-p2 {
+        color: color($colors, dinerGrey)
+    } //areas we cover:
+    .location-item {
+        padding-right: 10%;
+        padding-left: 2%;
+    }
+    .location-item.input-has-value {
+        border: none !important;
+        box-shadow: none !important;
+    }
+}

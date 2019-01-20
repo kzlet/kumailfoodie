@@ -1,0 +1,53 @@
+<ion-content class="bg-login">
+  <!-- <div class="top-img">
+    <img src="assets/imgs/1.png">
+  </div>
+  <div class="logo-div">
+    <img src="assets/imgs/logo.png">
+  </div> -->
+
+<!-- 
+  <div class="head-txt">
+    <p>Starving? No problem</p>
+    <p>All you have to do is just login</p>
+  </div> -->
+
+  <div class="input-div">
+    <ion-list style="background-color:transparent">
+      <ion-item class="input-item-custom">
+        <ion-input type="text" placeholder="Username" [(ngModel)]="username"></ion-input>
+      </ion-item>
+
+      <ion-item style="background-color:transparent" class="input-item-custom">
+        <ion-input type="password" placeholder="Password" [(ngModel)]="password"></ion-input>
+      </ion-item>
+      <ion-item style="background-color:transparent" class="btn-item">
+        <p (click)="signin()">Login</p>   <!--loginUser2-->
+      </ion-item>
+      <div [innerHtml]="errorHtml" *ngIf="errorHtml != 'false'" class="error-div"></div>
+    </ion-list>
+  </div>
+
+  <div class="middle-txt">
+    <p>Not starving? Alright, just create an account</p>
+    <p>and then you'll be start getting hungry.</p>
+  </div>
+  <div class="create-btn" (click)="gotoSignup()">
+    <p>Create an account</p>
+  </div>
+  <div class="bottom-div">
+    <!-- <div class="bottom-left">
+      <img src="assets/imgs/2.png">
+    </div> -->
+    <div class="bottom-right">
+      <p>
+        <span>Terms & Condition</span>
+        <span>About Us</span>
+      </p>
+      <p>
+        <span>Delivery</span>
+        <span>Privacy</span>
+      </p>
+    </div>
+  </div>
+</ion-content>

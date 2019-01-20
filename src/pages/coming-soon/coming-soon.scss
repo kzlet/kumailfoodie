@@ -1,0 +1,42 @@
+page-coming-soon {
+    .mid-img img {
+        width: 50%;
+        margin-top: 5%;
+    }
+    .mid-img {
+        text-align: center;
+    }
+    .mid-img p {
+        margin: auto;
+        color: color($colors, dinerPink);
+        font-size: 28px;
+    } //
+    //
+    //Custom-btn
+    //
+    .custom-div-btn {
+        width: 100%;
+        float: left;
+        margin-top: 5%;
+    }
+    .custom-btn {
+        width: 58%;
+        margin: auto;
+        height: 44px;
+        padding-top: 4%;
+        padding-left: 3%;
+        color: color($colors, dinerWhite);
+        background: color($colors, dinerPink);
+    }
+    .custom-btn p {
+        margin: auto;
+        float: left;
+    }
+    .custom-btn i {
+        float: left;
+        margin-right: 4%;
+    } //
+    //
+    //Custom-btn
+    //
+}

@@ -1,0 +1,7 @@
+{
+  "name": "HomeFixWorker",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

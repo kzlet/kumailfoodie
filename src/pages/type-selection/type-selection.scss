@@ -1,0 +1,134 @@
+page-type-selection {
+    .toolbar-background {
+        border-color: color($colors, dinerPink);
+        background: color($colors, dinerPink);
+    }
+    ion-header ion-icon {
+        color: color($colors, dinerWhite);
+    }
+    ion-header .toolbar .bar-button-menutoggle .button-inner {
+        color: color($colors, dinerWhite);
+    }
+    ion-header .left-head-icon {
+        background: transparent;
+        float: right;
+        box-shadow: none;
+    }
+    ion-header .left-head-icon.activated {
+        background: transparent;
+        box-shadow: none;
+    }
+    ion-header .left-head-icon ion-icon {
+        font-size: 24px;
+    }
+    ion-header {
+        text-align: center;
+    }
+    .logo-head {
+        width: 50%;
+        margin-top: 3%;
+    } //
+    //header end
+    .middle-right {
+        width: 25%;
+        float: right;
+    }
+    .middle-txt {
+        float: left;
+        width: 68%;
+        margin-top: 6%;
+        margin-left: 7%;
+    }
+    .middle-txt p {
+        margin: auto;
+        width: 80%;
+        float: left;
+        color: color($colors, dinerGrey);
+    }
+    .middle-txt h3 {
+        margin: auto;
+        width: 100%;
+        float: left;
+        color: color($colors, dinerPink);
+    } //TYPE
+    .type-items {
+        float: left;
+        width: 100%;
+        margin-top: 15%;
+    }
+    .type-items .row-one ion-col {
+        border: 1px solid color($colors, dinerGrey);
+        border-radius: 160px;
+        padding: 3vw;
+        padding-top: 8vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        text-align: center;
+        padding-bottom: 4vw;
+        font-size: 2.5vw;
+        margin: 1.5%;
+    }
+    .type-items .row-two ion-col {
+        border: 1px solid color($colors, dinerGrey);
+        border-radius: 160px;
+        padding: 3vw;
+        padding-top: 10vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        text-align: center;
+        padding-bottom: 5vw;
+        font-size: 2.5vw;
+        margin: 1.5%;
+    }
+    .type-items ion-row ion-col p {
+        // margin: auto;
+        // width: 100%;
+        // font-size: 2.5vw;
+        // text-align: center;
+        margin: auto;
+    }
+    .type-items ion-row ion-col img {
+        margin-top: -30%;
+        width: 80%;
+    }
+    .type-items ion-row {
+        padding-right: 4%;
+        padding-left: 4%;
+    } //
+    //
+    //Custom-btn
+    //
+    .custom-div-btn {
+        width: 100%;
+        float: left;
+        margin-top: 2%;
+    }
+    .custom-btn {
+        width: 35%;
+        margin: auto;
+        height: 44px;
+        padding-top: 3.5vw;
+        padding-left: 3%;
+        color: color($colors, dinerWhite);
+        background: color($colors, dinerPink);
+    }
+    .custom-btn p {
+        margin: auto;
+        float: left;
+    }
+    .custom-btn i {
+        float: right;
+        margin-right: 4%;
+    } //
+    //
+    //Custom-btn
+    //
+    .looking-txt {
+        float: left;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        font-size: 3vw;
+        margin-top: 5%;
+    }
+}

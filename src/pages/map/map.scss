@@ -1,0 +1,44 @@
+page-map {
+    #map {
+        height: 100%;
+    }
+    .geolocation-btn {
+        margin: 0px;
+        padding: 0px;
+    } //
+    //
+    //Fan btn
+    .fab-cart {
+        position: sticky;
+        bottom: 17%;
+        float: right;
+        margin-right: 6%;
+    }
+    .fab-cart .fab {
+        background-color: color($colors, dinerPink);
+    }
+    .fab-cart i {
+        font-size: 26px;
+    } //
+    //
+    //Fan end
+    ion-header .toolbar-background {
+        background: color($colors, dinerPink) !important;
+    }
+    ion-header .searchbar-search-icon {
+        color: color($colors, dinerYellow);
+    }
+    ion-header {
+        position: relative !important;
+    }
+    .ion-content-map {
+        position: relative !important;
+    }
+    .ion-content-map .scroll-content {
+        margin-top: 0px !important;
+		}
+		.ion-content-map .fixed-content {
+			margin-top: 0px !important;
+	}
+		
+}

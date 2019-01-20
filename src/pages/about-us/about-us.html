@@ -1,0 +1,79 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <img class="logo-head" src="assets/imgs/logo.png">
+    <button ion-button class="left-head-icon">
+      <ion-icon class="icon-bag"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="middle-right">
+    <img src="assets/imgs/image4.png">
+  </div>
+
+  <div class="middle-txt">
+    <h3>Areas we cover</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has </p>
+  </div>
+
+  <div class="scroller-cutom-div">
+    <div class="left-icon">
+
+    </div>
+
+
+    <div class="order-description">
+
+      <ion-scroll scrollX="true" style="width: 80vw; height: 70px; margin: auto;">
+        <ion-row nowrap>
+          <img *ngFor="let item of imagesArray" src="assets/imgs/area.jpg">
+        </ion-row>
+      </ion-scroll>
+    </div>
+
+
+
+
+
+    <div class="right-icon">
+
+    </div>
+  </div>
+
+  <div class="check-item-custom">
+    <div class="check-li">
+      <i class="icon-check"></i>
+      <p>Lorem Ipsum is simply dummy text of</p>
+    </div>
+
+    <div class="check-li">
+      <i class="icon-check"></i>
+      <p>Lorem Ipsum is simply dummy text </p>
+    </div>
+
+    <div class="check-li">
+      <i class="icon-check"></i>
+      <p>Lorem Ipsum is simply dummy text of the printing </p>
+    </div>
+
+    <div class="check-li">
+      <i class="icon-check"></i>
+      <p>Lorem Ipsum is simply dummy text </p>
+    </div>
+
+    <div class="check-li">
+      <i class="icon-check"></i>
+      <p>Lorem Ipsum is simply dummy text of </p>
+    </div>
+
+  </div>
+
+  <div class="bottom-img-div">
+    <img src="assets/imgs/image3.png">
+  </div>
+</ion-content>

@@ -1,0 +1,151 @@
+page-filter {
+    .bg-filter {
+        background-color: color($colors, dinerPink);
+    }
+    .middle-right {
+        width: 25%;
+        float: right;
+        margin-top: 5%;
+    }
+    .middle-txt {
+        float: left;
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .middle-txt p {
+        margin: auto;
+        width: 80%;
+        float: left;
+        color: color($colors, dinerWhite);
+    }
+    .middle-txt h3 {
+        margin: auto;
+        width: 90%;
+        float: left;
+        color: color($colors, dinerWhite);
+    } //
+    //
+    //scroller
+    //
+    .scoll-div-custom {
+        width: 100%;
+        /* height: 36%; */
+        /* background: #414141; */
+        margin: auto;
+        margin-top: 3%;
+        border-radius: 10px;
+        text-align: center;
+        padding: 7px;
+        float: left;
+        margin: auto;
+    }
+    .scol-heading {
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        font-size: 13px;
+    }
+    .scoll-div-custom ion-scroll img {
+        width: 30px;
+        height: 30px;
+        margin-right: 9px;
+        border-radius: 160px;
+    }
+    .scoll-div-custom ion-scroll .scroll-content {
+        // background: #414141;
+    }
+    .scroll-parent {
+        background: #fff;
+        border-radius: 150px;
+        width: 90%;
+        margin: auto;
+    }
+    .scroll-parent ion-row {
+        margin-top: 5%;
+    }
+    .right-ic {
+        float: right;
+        margin-top: -13%;
+        margin-right: 3%;
+    }
+    .left-ic {
+        float: left;
+        margin-top: 9%;
+        margin-left: 2%;
+    }
+    .inner-scroll {
+        width: 40%;
+        text-align: left;
+        /* margin: auto; */
+        /* margin-top: 0px; */
+        text-align: center;
+    }
+    .cat-title {
+        margin: auto;
+        font-size: 7px; // width: 110%;
+    } //
+    //
+    //
+    // Scroll end
+    //
+    //
+    .price-div {
+        width: 100%;
+        float: left;
+    }
+    .price-inner {
+        width: 20%;
+        margin: auto;
+        background: #fff;
+        border-radius: 150px;
+    }
+    .price-inner .dollar {
+        color: #fff;
+    }
+    .close-btn {
+        color: #fff;
+        font-size: 32px;
+        float: right;
+        margin: 4%;
+    }
+    .price-div {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .inner-scroll.price-inner img {
+        width: 90% !important;
+        height: 50% !important;
+    }
+    .price-div ion-row {
+        width: 80% !important;
+        margin: auto !important;
+        margin-top: 7% !important;
+    }
+    .inner-scroll-offer {
+        margin: auto;
+        background: #fff;
+        border-radius: 150px;
+        text-align: center;
+        padding: 3%;
+    }
+    .inner-scroll-offer p {
+        margin: auto;
+    }
+    .offer-div ion-row {
+        width: 90% !important;
+        margin-top: 8%;
+    }
+    .pink1 {
+        border: 1px solid color($colors, dinerPink);
+        color: color($colors, dinerPink);
+    }
+    .blue1 {
+        border: 1px solid #a74ef3;
+        color: #a74ef3;
+    }
+    .green1 {
+        border: 1px solid #3abb08;
+        color: #3abb08;
+    }
+}

@@ -1,0 +1,99 @@
+<ion-header class="checkout-head">
+
+  <div class="head-head-icon">
+    <i class="icon-arrow-left" (click)="goBack()"></i>
+  </div>
+  <div class="check-title">
+    <p>Your Cart</p>
+  </div>
+
+  <h3 class="price">Rs1680</h3>
+
+</ion-header>
+
+<ion-content padding>
+  <div class="cart-items">
+    <ion-item class="content-title">
+      Cart Items
+    </ion-item>
+    <ion-item>
+      <div class="left-side">
+        <ion-icon name="remove"></ion-icon>
+        <p>4X</p>
+        <ion-icon name="add"></ion-icon>
+      </div>
+      <div class="middle-side">
+        <p>Chicken Zinger Burger</p>
+      </div>
+      <div class="right-side">
+        <p>Rs800</p>
+      </div>
+    </ion-item>
+
+    <ion-item>
+      <div class="left-side">
+        <ion-icon name="remove"></ion-icon>
+        <p>4X</p>
+        <ion-icon name="add"></ion-icon>
+      </div>
+      <div class="middle-side">
+        <p>Chicken Zinger Burger</p>
+      </div>
+      <div class="right-side">
+        <p>Rs800</p>
+      </div>
+    </ion-item>
+
+    <ion-item>
+      <div class="left-side">
+        <ion-icon name="remove"></ion-icon>
+        <p>4X</p>
+        <ion-icon name="add"></ion-icon>
+      </div>
+      <div class="middle-side">
+        <p>Chicken Zinger Burger</p>
+      </div>
+      <div class="right-side">
+        <p>Rs800</p>
+      </div>
+    </ion-item>
+
+    <ion-item>
+      <div class="left-side">
+        <ion-icon name="remove"></ion-icon>
+        <p>4X</p>
+        <ion-icon name="add"></ion-icon>
+      </div>
+      <div class="middle-side">
+        <p>Chicken Zinger Burger</p>
+      </div>
+      <div class="right-side">
+        <p>Rs800</p>
+      </div>
+    </ion-item>
+  </div>
+
+  <div class="total-div">
+    <p class="para1">Sub Total</p>
+    <p class="price-p">Rs140</p>
+  </div>
+  <div class="total-div sec-dics">
+    <p class="para1">Tax</p>
+    <p class="price-p">Rs140</p>
+  </div>
+  <div class="total-div sec-dics">
+    <p class="para1">Delivery Charges</p>
+    <p class="price-p">Rs140</p>
+  </div>
+  <div class="total-div sec-dics">
+    <p class="para1 total-p">Total</p>
+    <p class="price-p">Rs140</p>
+  </div>
+
+  <div class="custom-div-btn">
+    <div class="custom-btn" (click)="btnClick(paramTxt)">
+      <i class="icon-bag"></i>
+      <p>{{btnText}}</p>
+    </div>
+  </div>
+</ion-content>

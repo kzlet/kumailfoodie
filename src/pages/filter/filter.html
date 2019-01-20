@@ -1,0 +1,105 @@
+<ion-content class="bg-filter">
+  <i class="icon-close close-btn" (click)="goBack()"></i>
+  <div class="middle-txt">
+    <h3>Filter & Sorting</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing</p>
+  </div>
+
+  <div class="scoll-div-custom">
+    <p class="scol-heading">FOOD TYPE</p>
+
+    <div class="scroll-parent">
+      <i class="icon-arrow-left left-ic" (click)="scrollLeft()"></i>
+
+      <ion-scroll #scrollCat scrollX="true" style="width: 70vw; height: 70px; margin: auto;">
+        <ion-row nowrap>
+          <div *ngFor="let item of categoryArray" class="inner-scroll">
+            <img [src]="item.image" [id]="item.id">
+            <p class="cat-title">{{item.text}}</p>
+          </div>
+        </ion-row>
+      </ion-scroll>
+      <i class="icon-arrow-right right-ic" (click)="scrollRight()"></i>
+    </div>
+  </div>
+  <!-- <div class="price-div">
+    <p class="scol-heading">PRICE RANGE</p>
+    <div class="price-inner">
+      <div class="dollar">$</div>
+      <div class="dollar">$$</div>
+      <div class="dollar">$$$</div>
+    </div>
+  </div> -->
+
+  <div class="scoll-div-custom">
+    <p class="scol-heading">PRICE RANGE</p>
+
+    <div class="scroll-parent price-div">
+      <ion-scroll #scrollCat scrollX="true" style="height: 70px; margin: auto;">
+        <ion-row nowrap>
+          <div class="inner-scroll price-inner">
+            <img src="assets/imgs/dollar1.png">
+          </div>
+          <div class="inner-scroll price-inner">
+            <img src="assets/imgs/dollar2.png">
+          </div>
+          <div class="inner-scroll price-inner">
+            <img src="assets/imgs/dollar3.png">
+          </div>
+        </ion-row>
+      </ion-scroll>
+    </div>
+  </div>
+
+  <div class="scoll-div-custom">
+    <p class="scol-heading">RATINGS</p>
+
+    <div class="scroll-parent price-div">
+      <ion-scroll #scrollCat scrollX="true" style="height: 70px; margin: auto;">
+        <ion-row nowrap>
+          <div class="inner-scroll price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+          <div class="inner-scroll price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+          <div class="inner-scroll price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+          <div class="inner-scroll price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+          <div class="inner-scroll price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+        </ion-row>
+      </ion-scroll>
+    </div>
+  </div>
+
+
+  <div class="scoll-div-custom">
+    <p class="scol-heading">RATINGS</p>
+
+    <div class="scroll-parent price-div offer-div">
+      <ion-scroll #scrollCat scrollX="true" style="height: 70px; margin: auto;">
+        <ion-row nowrap>
+          <div class="inner-scroll-offer pink1">
+            <!-- <img src="assets/imgs/star.png"> -->
+            <p>NEW</p>
+          </div>
+          <div class="inner-scroll-offer blue1">
+            <!-- <img src="assets/imgs/star.png"> -->
+            <p>FEATURED</p>
+          </div>
+          <div class="inner-scroll-offer green1">
+            <!-- <img src="assets/imgs/star.png"> -->
+            <p>DEAL</p>
+          </div>
+        </ion-row>
+      </ion-scroll>
+    </div>
+  </div>
+
+
+</ion-content>

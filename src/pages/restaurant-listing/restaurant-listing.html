@@ -1,0 +1,137 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <button ion-button class="right-head-icon">
+      <ion-icon name="pin"></ion-icon>
+    </button>
+    <div class="location-div" (click)="gotoMapPage()">
+      <p>Current Location <i class="icon-arrow-down"></i> </p>
+      <p>Mohammad Ali Society</p>
+    </div>
+
+    <!-- <img class="logo-head" src="assets/imgs/logo.png"> -->
+    <button ion-button class="left-head-icon">
+      <ion-icon class="icon-equalizer" (click)="gotoFilterPage()"></ion-icon>
+      <ion-icon class="icon-magnifier"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="scroll-parent">
+    <i class="icon-arrow-left left-ic" (click)="scrollLeft()"></i>
+    <ion-scroll #scrollPop scrollX="true" style="width: 86vw; height: 70px; margin: auto;">
+      <ion-row nowrap>
+        <div *ngFor="let item of categoryArray" class="inner-scroll">
+          <img [src]="item.image" [id]="item.id" class="cat-img">
+          <p class="cat-title">{{item.text}}</p>
+        </div>
+      </ion-row>
+    </ion-scroll>
+    <i class="icon-arrow-right right-ic" (click)="scrollRight()"></i>
+  </div>
+
+
+  <div class="restaurant-slider">
+    <p class="slider-head">Popular Restaurants</p>
+    <!-- autoplay="2000" loop="true" speed="500" -->
+    <!-- <ion-slides *ngIf="resList && resList.length">
+      <ion-slide *ngFor="let item of resList" (click)="gotoRestaurantMenu()"> -->
+
+
+    <ion-scroll #scrollPop scrollX="true" style="width: 300vw; height: 65vw; margin: auto; margin-top: 20%;">
+      <ion-row nowrap>
+        <div class="pop-res-item" *ngFor="let item of resList" (click)="gotoRestaurantMenu()">
+          <img class="pop-img" src="assets/imgs/burger-lab.jpg">
+          <div class="pop-banner">
+            <p>Delivery in 45 Mins</p>
+          </div>
+          <div class="pop-text">
+            <p class="pop-title">Burger Lab</p>
+            <p class="pop-location">Lucky One Mall</p>
+          </div>
+          <div class="pop-heart">
+            <ion-icon class="icon-heart"></ion-icon>
+          </div>
+          <div class="pop-bottom">
+            <ion-row nowrap class="pop-rating">
+              <div class="price-inner">
+                <img src="assets/imgs/star.png">
+              </div>
+              <div class="price-inner">
+                <img src="assets/imgs/star.png">
+              </div>
+              <div class="price-inner">
+                <img src="assets/imgs/star.png">
+              </div>
+              <div class="price-inner">
+                <img src="assets/imgs/star.png">
+              </div>
+              <div class="price-inner">
+                <img src="assets/imgs/star.png">
+              </div>
+              <div class="rating-num">
+                (4.6)
+              </div>
+            </ion-row>
+            <div class="deal-div">
+              <div class="deal-banner">Deal</div>
+            </div>
+          </div>
+        </div>
+      </ion-row>
+    </ion-scroll>
+
+
+    <!-- </ion-slide>
+
+    </ion-slides> -->
+  </div>
+
+
+  <div class="all-res">
+    <p class="slider-head">All Restaurants</p>
+    <div class="all-res-inner" *ngFor="let item of resList" (click)="gotoRestaurantMenu()">
+      <img src="assets/imgs/burger-orignal.jpg">
+      <div class="pop-text">
+        <p class="pop-title all-title">Burger Lab - <span class="all-money">$$$$</span></p>
+        <p class="pop-location">Lucky One Mall</p>
+      </div>
+      <div class="pop-heart all-heart">
+        <ion-icon class="icon-heart"></ion-icon>
+      </div>
+      <div class="pop-bottom">
+        <ion-row nowrap class="pop-rating">
+          <div class="price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+          <div class="price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+          <div class="price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+          <div class="price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+          <div class="price-inner">
+            <img src="assets/imgs/star.png">
+          </div>
+          <div class="rating-num">
+            (4.6)
+          </div>
+        </ion-row>
+      </div>
+    </div>
+  </div>
+  <div class="fab-cart" (click)="gotoCart()">
+    <button ion-fab>
+      <i class="icon-bag"></i>
+    </button>
+  </div>
+  <ion-badge class="cart-badge" *ngIf="selectedItemCount > 0">2</ion-badge>
+</ion-content>

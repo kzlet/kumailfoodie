@@ -1,0 +1,166 @@
+page-checkout-shipping {
+    //
+    //
+    //Header Start
+    .checkout-head {
+        background: color($colors, dinerPink);
+    }
+    .head-head-icon i {
+        color: color($colors, dinerWhite);
+        font-size: 25px;
+        top: 2%;
+        position: relative;
+        top: 25%;
+        left: 3%;
+    }
+    .head-head-icon {
+        height: 44px;
+    }
+    .check-title p {
+        color: color($colors, dinerWhite);
+        text-align: center;
+        font-size: 25px;
+        margin: auto;
+    }
+    .check-ship-head {
+        width: 32%;
+        float: left; // text-align: right;
+    }
+    .check-pay-head {
+        float: left;
+        width: 36%; // text-align: center;
+    }
+    .check-confirm-head {
+        float: left;
+        width: 32%; // text-align: left;
+    }
+    .check-ship-head .check-inner {
+        text-align: center;
+        float: right;
+    }
+    .check-pay-head .check-inner {
+        text-align: center;
+    }
+    .check-confirm-head .check-inner {
+        text-align: center;
+        float: left;
+    }
+    .check-names {
+        width: 100%;
+        height: 100%;
+        float: left;
+        margin-top: 5%;
+    }
+    .check-inner.active ion-icon {
+        color: color($colors, dinerWhite);
+    }
+    .check-inner.active i {
+        color: color($colors, dinerWhite);
+    }
+    .check-inner.active p {
+        color: color($colors, dinerWhite);
+    }
+    .check-inner ion-icon {
+        font-size: 40px;
+        color: #f7b6b6;
+    }
+    .check-inner i {
+        font-size: 40px;
+        color: #f7b6b6;
+    }
+    .check-inner p {
+        font-size: 15px;
+        color: #f7b6b6;
+    } //
+    //
+    //
+    //Header End
+    //
+    //
+    //
+    .shipping-text {
+        text-align: center;
+        font-size: 22px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        color: color($colors, dinerPink);
+    }
+    .shipping-text-des {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        color: color($colors, dinerGrey);
+    } //Input
+    .input-div {
+        /* position: relative; */
+        /* top: 10%; */
+        float: left;
+        width: 100%;
+        margin-top: 8%;
+    } //Placeholder ->
+    .input-item-custom input::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: color($colors, dinerGrey)
+    }
+    .input-item-custom input::-moz-placeholder {
+        /* Firefox 19+ */
+        color: color($colors, dinerGrey)
+    }
+    .input-item-custom input:-ms-input-placeholder {
+        /* IE 10+ */
+        color: color($colors, dinerGrey)
+    }
+    .input-item-custom input:-moz-placeholder {
+        /* Firefox 18- */
+        color: color($colors, dinerGrey)
+    } //Placeholder <-
+    .input-item-custom {
+        margin: auto;
+        padding: 0px;
+        width: 90%;
+        border-bottom: 1px solid color($colors, dinerGrey);
+    }
+    .input-item-custom input {
+        text-align: center;
+        color: color($colors, dinerGrey)
+    }
+    .input-item-custom .item-inner {
+        border: none !important;
+    }
+    .input-item-custom.input-has-focus .item-inner {
+        text-align: center;
+        border-bottom-color: color($colors, dinerPink) !important;
+        box-shadow: none !important;
+    } //
+    //
+    //
+    //
+    //Custom-btn
+    //
+    .custom-div-btn {
+        width: 100%;
+        float: left;
+        margin-top: 5%;
+    }
+    .custom-btn {
+        width: 65%;
+        margin: auto;
+        height: 44px;
+        padding-top: 4%;
+        padding-left: 3%;
+        color: color($colors, dinerWhite);
+        background: color($colors, dinerPink);
+    }
+    .custom-btn p {
+        margin: auto;
+        float: left;
+    }
+    .custom-btn i {
+        float: left;
+        margin-right: 4%;
+    } //
+    //
+    //Custom-btn
+    //
+}

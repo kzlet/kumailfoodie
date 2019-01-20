@@ -1,0 +1,41 @@
+<ion-header class="checkout-head">
+
+  <div class="head-head-icon">
+    <i class="icon-arrow-left" (click)="goBack()"></i>
+  </div>
+  <div class="check-title">
+    <p>Order Tracking</p>
+  </div>
+  <div class="time-distance">
+    <div class="time-div">
+      <p class="td-title">Avail Time</p>
+      <h3>4:30 PM</h3>
+    </div>
+    <div class="distance-div">
+      <p class="td-title">Distance</p>
+      <h3>4.5km</h3>
+    </div>
+  </div>
+</ion-header>
+
+<ion-content padding>
+  <div class="img-div">
+    <img src="assets/imgs/new/13.png">
+  </div>
+  <div class="checkicon-div">
+    <ion-icon name="checkmark-circle" class="chk-icon"></ion-icon>
+    <ion-icon name="checkmark-circle" class="chk-icon"></ion-icon>
+    <ion-icon name="checkmark-circle" class="chk-icon"></ion-icon>
+  </div>
+  <p class="bottom-title">On Your Way</p>
+  <p class="bottom-des">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum
+    has</p>
+
+  <div class="custom-div-btn">
+    <div class="custom-btn" (click)="gotoTrackingMap()">
+      <i class="icon-map"></i>
+      <p>VIEW MAP</p>
+    </div>
+  </div>
+</ion-content>

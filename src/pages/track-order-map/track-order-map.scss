@@ -1,0 +1,61 @@
+page-track-order-map {
+    //
+    //
+    //Header Start
+    .checkout-head {
+        background: color($colors, dinerPink);
+    }
+    .head-head-icon i {
+        color: color($colors, dinerWhite);
+        font-size: 25px;
+        top: 2%;
+        position: relative;
+        top: 25%;
+        left: 3%;
+    }
+    .head-head-icon {
+        height: 31px;
+    }
+    .check-title p {
+        color: color($colors, dinerWhite);
+        text-align: center;
+        font-size: 22px;
+        margin: auto;
+    }
+    .time-distance {
+        width: 100%;
+        float: left;
+        margin-top: 7%;
+        margin-bottom: 14%;
+    }
+    .time-distance p,
+    .distance-div p {
+        margin: auto;
+    }
+    .time-distance h3,
+    .distance-div h3 {
+        margin: auto;
+        margin-top: 3%;
+    }
+    .distance-div {
+        width: 50%;
+        float: left;
+        text-align: center;
+        color: color($colors, dinerWhite);
+    }
+    .time-div {
+        width: 50%;
+        float: left;
+        text-align: center;
+        color: color($colors, dinerWhite);
+    }
+    .asdf {}
+    //
+    //Header End
+    //
+    //
+    #track-map {
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,66 @@
+<ion-header class="checkout-head">
+
+  <div class="head-head-icon">
+    <i class="icon-arrow-left" (click)="goBack()"></i>
+  </div>
+  <div class="check-title">
+    <p>Checkout</p>
+  </div>
+  <div class="check-names">
+    <div class="check-ship-head">
+      <div class="check-inner active">
+        <ion-icon name="pin"></ion-icon>
+        <p>Shipping</p>
+      </div>
+    </div>
+    <div class="check-pay-head">
+      <div class="check-inner">
+        <i class="icon-credit-card"></i>
+        <p>Payment</p>
+      </div>
+    </div>
+    <div class="check-confirm-head">
+      <div class="check-inner">
+        <i class="icon-check"></i>
+        <p>Confirm</p>
+      </div>
+    </div>
+  </div>
+</ion-header>
+
+
+<ion-content padding>
+
+  <p class="shipping-text">Shipping Address</p>
+  <p class="shipping-text-des"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+    has</p>
+
+
+  <div class="input-div">
+    <ion-list>
+      <ion-item class="input-item-custom">
+        <ion-input type="text" placeholder="Full Name"></ion-input>
+      </ion-item>
+
+      <ion-item class="input-item-custom">
+        <ion-input type="text" placeholder="Address"></ion-input>
+      </ion-item>
+
+      <ion-item class="input-item-custom">
+        <ion-input type="text" placeholder="Zip"></ion-input>
+      </ion-item>
+
+      <ion-item class="input-item-custom">
+        <ion-input type="text" placeholder="City"></ion-input>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div class="custom-div-btn">
+    <div class="custom-btn" (click)="gotoCheckoutPayment()">
+      <i class="icon-credit-card"></i>
+      <p>NEXT - PAYMENT INFO</p>
+    </div>
+  </div>
+
+</ion-content>

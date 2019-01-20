@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <img class="logo-head" src="assets/imgs/logo.png">
+    <button ion-button class="left-head-icon">
+      <ion-icon class="icon-bag"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="top-img-div">
+    <img src="assets/imgs/image1.png">
+  </div>
+
+  <div class="top-txt">
+    <p class="top-txt-p1">Tap tap tap!!!</p>
+    <p class="top-txt-p2">Dinner's ready...</p>
+  </div>
+
+  <div class="loc-input-div">
+    <ion-icon name="paper-plane" (click)="tryGeolocation()"></ion-icon>
+    <ion-list>
+      <ion-item class="location-item">
+        <!-- <ion-searchbar [(ngModel)]="autocomplete.input" (ionInput)="updateSearchResults()" placeholder="Search for a place"></ion-searchbar> -->
+        <ion-input [(ngModel)]="autocomplete.input" (input)="updateSearchResults()" placeholder="Enter your block & area"></ion-input>
+      </ion-item>
+    </ion-list>
+  </div>
+  <ion-list [hidden]="autocompleteItems.length == 0">
+    <ion-item *ngFor="let item of autocompleteItems" tappable (click)="selectSearchResult(item)">
+      {{ item.description }}
+    </ion-item>
+  </ion-list>
+  <div class="custom-div-btn">
+    <div class="custom-btn" (click)="gotoRestaurantList()">
+      <i class="icon-directions"></i>
+      <p>FIND RESTURANTS</p>
+    </div>
+  </div>
+
+  <div class="middle-img-div">
+    <img src="assets/imgs/image2.png">
+  </div>
+
+
+</ion-content>

@@ -1,0 +1,52 @@
+<ion-header class="checkout-head">
+
+  <div class="head-head-icon">
+    <i class="icon-arrow-left" (click)="goBack()"></i>
+  </div>
+  <div class="check-title">
+    <p>Checkout</p>
+  </div>
+  <div class="check-names">
+    <div class="check-ship-head">
+      <div class="check-inner active">
+        <ion-icon name="pin"></ion-icon>
+        <p>Shipping</p>
+      </div>
+    </div>
+    <div class="check-pay-head">
+      <div class="check-inner active">
+        <i class="icon-credit-card"></i>
+        <p>Payment</p>
+      </div>
+    </div>
+    <div class="check-confirm-head">
+      <div class="check-inner active">
+        <i class="icon-check"></i>
+        <p>Confirm</p>
+      </div>
+    </div>
+  </div>
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="chk-div">
+    <ion-icon name="checkmark-circle" class="chk-icon"></ion-icon>
+  </div>
+  <p class="shipping-text">Your order has beed placed</p>
+  <p class="shipping-text-des"> #ORDER1231 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum
+    has</p>
+
+
+
+
+  <div class="custom-div-btn" (click)="gotoOrderTrackingPage()">
+    <div class="custom-btn">
+      <ion-icon name="pin"></ion-icon>
+      <p>TRACK ORDER</p>
+    </div>
+  </div>
+
+</ion-content>

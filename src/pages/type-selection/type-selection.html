@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <img class="logo-head" src="assets/imgs/logo.png">
+    <button ion-button class="left-head-icon">
+      <ion-icon class="icon-bag"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content>
+  <div class="middle-right">
+    <img src="assets/imgs/image7.png">
+  </div>
+
+  <div class="middle-txt">
+    <h3>Hi there, Hungry?</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
+  </div>
+
+
+  <div class="type-items">
+    <ion-row class="row-one">
+      <ion-col (click)="gotoHome()"><img src="assets/imgs/deliveryman.png">
+        <p>Home Delivery</p>
+      </ion-col>
+      <ion-col (click)="gotoReservationPage()"><img src="assets/imgs/bag.png">
+        <p>Take Away</p>
+      </ion-col>
+      <ion-col (click)="gotoReservationPage()"><img src="assets/imgs/reserved.png">
+        <p>Reservation</p>
+      </ion-col>
+    </ion-row>
+    <ion-row class="row-two">
+      <ion-col (click)="openBarcode()"><img src="assets/imgs/dinner.png">
+        <p>Dine In</p>
+      </ion-col>
+      <ion-col (click)="gotoComingSoon()"><img src="assets/imgs/parking.png">
+        <p>Car Dine In</p>
+      </ion-col>
+      <ion-col (click)="openBarcode()"><img src="assets/imgs/pay.png">
+        <p>Mobile Pay</p>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <p class="looking-txt">Looking for something else?</p>
+  <div class="custom-div-btn" (click)="gotoHome()">
+    <div class="custom-btn">
+      <i class="icon-arrow-right"></i>
+      <p>CONTINUE</p>
+    </div>
+  </div>
+</ion-content>

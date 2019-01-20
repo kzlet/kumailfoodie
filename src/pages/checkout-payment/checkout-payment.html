@@ -1,0 +1,59 @@
+<ion-header class="checkout-head">
+
+  <div class="head-head-icon">
+    <i class="icon-arrow-left" (click)="goBack()"></i>
+  </div>
+  <div class="check-title">
+    <p>Checkout</p>
+  </div>
+  <div class="check-names">
+    <div class="check-ship-head">
+      <div class="check-inner active">
+        <ion-icon name="pin"></ion-icon>
+        <p>Shipping</p>
+      </div>
+    </div>
+    <div class="check-pay-head">
+      <div class="check-inner active">
+        <i class="icon-credit-card"></i>
+        <p>Payment</p>
+      </div>
+    </div>
+    <div class="check-confirm-head">
+      <div class="check-inner">
+        <i class="icon-check"></i>
+        <p>Confirm</p>
+      </div>
+    </div>
+  </div>
+</ion-header>
+
+
+<ion-content padding>
+
+  <p class="shipping-text">Payment Method</p>
+  <p class="shipping-text-des"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+    has</p>
+
+
+  <!-- <div class="payment-type"> -->
+  <div class="type-items">
+    <ion-row class="row-one">
+      <ion-col (click)="selectMethod(1)" class="col1" [ngClass]="selectedMethod == 1? 'selected-method':''"><img src="assets/imgs/new/money.png">
+        <p>Cash</p>
+      </ion-col>
+      <ion-col (click)="selectMethod(2)" class="col2" [ngClass]="selectedMethod == 2? 'selected-method':''"><img src="assets/imgs/new/wallet.png">
+        <p>Wallet</p>
+      </ion-col>
+    </ion-row>
+  </div>
+  <!-- </div> -->
+
+  <div class="custom-div-btn">
+    <div class="custom-btn" (click)="presentConfirmPayment()">
+      <i class="icon-check"></i>
+      <p>CONFIRM PAYMENT</p>
+    </div>
+  </div>
+
+</ion-content>

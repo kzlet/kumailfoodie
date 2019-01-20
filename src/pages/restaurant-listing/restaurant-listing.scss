@@ -1,0 +1,302 @@
+page-restaurant-listing {
+    .toolbar-background {
+        border-color: color($colors, dinerPink);
+        background: color($colors, dinerPink);
+    }
+    ion-header ion-icon {
+        color: color($colors, dinerWhite);
+    }
+    ion-header .toolbar .bar-button-menutoggle .button-inner {
+        color: color($colors, dinerWhite);
+    }
+    ion-header .left-head-icon {
+        background: transparent;
+        float: right;
+        box-shadow: none;
+    }
+    ion-header .left-head-icon.activated {
+        background: transparent;
+        box-shadow: none;
+    }
+    ion-header .left-head-icon ion-icon {
+        font-size: 24px;
+        margin-right: 20%;
+    }
+    ion-header .right-head-icon {
+        background: transparent;
+        float: left;
+        box-shadow: none;
+    }
+    ion-header .right-head-icon.activated {
+        background: transparent;
+        box-shadow: none;
+    }
+    ion-header .right-head-icon ion-icon {
+        font-size: 24px;
+        margin-right: 20%;
+    }
+    ion-header {
+        text-align: center;
+    }
+    .location-div {
+        text-align: left;
+        color: #fff;
+        float: left;
+        margin-top: 4%;
+    }
+    .location-div p {
+        margin: auto;
+        font-size: 8px;
+    }
+    .location-div p i {
+        font-weight: 900;
+    } //
+    //
+    //scroller
+    //
+    .scoll-div-custom {
+        width: 100%;
+        /* height: 36%; */
+        /* background: #414141; */
+        margin: auto;
+        margin-top: 3%;
+        border-radius: 10px;
+        text-align: center;
+        padding: 7px;
+        float: left;
+        margin: auto;
+    }
+    .scol-heading {
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        font-size: 13px;
+    }
+    ion-scroll .cat-img {
+        width: 30px;
+        height: 30px; // margin-right: 9px;
+        border-radius: 160px;
+    }
+    .scroll-parent {
+        background: #fff;
+        border-radius: 150px;
+        width: 100%;
+        margin: auto;
+    }
+    .scroll-parent ion-row {
+        margin-top: 5%;
+    }
+    .right-ic {
+        float: right;
+        margin-top: -11%;
+        margin-right: 3%
+    }
+    .left-ic {
+        float: left;
+        margin-top: 9%;
+        margin-left: 2%;
+    }
+    .inner-scroll {
+        width: 40%;
+        text-align: left;
+        /* margin: auto; */
+        /* margin-top: 0px; */
+        text-align: center;
+    }
+    .cat-title {
+        margin: auto;
+        font-size: 7px; // width: 110%;
+    } //
+    //
+    //
+    // Scroll end
+    //
+    //
+    .restaurant-slider .slider-head {
+        font-size: 24px;
+        color: color($colors, dinerPink);
+        position: absolute;
+        width: 100%;
+        top: 11%;
+    }
+    .restaurant-slider {
+        padding-left: 5%;
+        overflow-x: auto; // height: 52%;
+        float: left;
+        width: 100%;
+        overflow-y: hidden;
+    }
+    .restaurant-slider ion-slide {
+        // width: 70% !important;
+        // margin-right: 10% !important; // margin-left: 10% !important;
+        // padding-right: 30% !important;
+        // padding-right: 15% !important;
+        // padding-left: 15% !important;
+        // margin-left: -10% !important;
+    }
+    .restaurant-slider ion-slide:first-child {
+        // width: 70% !important;
+        // margin-right: 10% !important; // margin-left: 10% !important;
+        // padding-right: 30% !important;
+        // padding-right: 15% !important;
+        // padding-left: 15% !important;
+        // margin-left: 0% !important;
+    }
+    .restaurant-slider ion-slide .slide-zoom {
+        // width: 70%;
+        // padding-right: 30%;
+        margin-right: 30%;
+    } // margin-left: -10%;
+    .restaurant-slider ion-slide {
+        // font-weight: bold;
+        // margin-left: -10%;
+        margin-left: -25%;
+    }
+    .restaurant-slider ion-slide:first-child {
+        // font-weight: normal;
+        margin-left: 0%;
+    }
+    .pop-res-item {
+        margin-right: 2%;
+        height: 100%;
+        width: 25%;
+        border: 1px solid rgba(181, 181, 181, 0.5);
+        border-radius: 7px;
+    }
+    .pop-banner {
+        height: 20%;
+        background: color($colors, dinerPink);
+        float: left;
+        width: 100%;
+        margin-top: -2%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .pop-banner p {
+        color: color($colors, dinerWhite);
+        font-size: 12px;
+        float: left;
+        width: 95%;
+        margin: auto;
+        margin: 2%;
+        text-align: right;
+    }
+    .pop-text {
+        float: left;
+        width: 100%;
+        text-align: left;
+        width: 60%;
+        margin-left: 6%;
+    }
+    .pop-heart {
+        width: 30%;
+        float: right;
+        margin-top: 3%;
+        text-align: right;
+        padding-right: 16%;
+        color: color($colors, dinerPink);
+    }
+    .pop-text .pop-title {
+        margin: auto;
+        font-weight: 100;
+    }
+    .pop-text .pop-location {
+        margin: auto;
+        font-size: 12px;
+        color: color($colors, dinerPink);
+    }
+    .pop-img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .pop-bottom {
+        width: 100%;
+        float: left;
+        padding-bottom: 4%;
+    }
+    .pop-bottom .pop-rating {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+    }
+    .rating-num {
+        font-size: 10px;
+        margin-top: 3%;
+    }
+    .deal-div {
+        width: 40%;
+        float: right;
+    }
+    .deal-div .deal-banner {
+        background: #91e805;
+        color: #fff;
+        width: fit-content;
+        font-size: 12px;
+        /* float: right; */
+        margin: auto;
+        padding: 4%;
+        border-radius: 150px;
+    }
+    .slider-head {
+        font-size: 24px;
+        color: color($colors, dinerPink);
+    }
+    .all-res {
+        padding: 5%;
+        float: left;
+        padding-top: 0px;
+    }
+    .all-res-inner {
+        margin-bottom: 10%;
+        float: left;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    }
+    .all-res .all-res-inner img {
+        border-radius: 5px;
+    }
+    .all-heart {
+        text-align: right;
+        font-size: 25px;
+    }
+    .all-title {
+        font-size: 20px;
+    }
+    .all-money {
+        font-size: 12px;
+        color: color($colors, dinerGrey);
+    } //
+    //
+    //Fan btn
+    .fab-cart {
+        position: sticky;
+        bottom: 2%;
+        float: right;
+        margin-right: 2%;
+    }
+    .fab-cart .fab {
+        background-color: color($colors, dinerPink);
+    }
+    .fab-cart .icon-bag {
+        font-size: 26px;
+    }
+    .cart-badge {
+        position: sticky;
+        bottom: 8%;
+        border-radius: 160px;
+        right: 0;
+        z-index: 99999999999999999;
+        width: 24px;
+        height: 25px;
+        text-align: center;
+        padding: 0;
+        text-align: center;
+        padding-top: 2%;
+        font-weight: 700;
+        font-size: 12px;
+        float: right;
+        margin: -20px;
+        background-color: color($colors, dinerYellow);
+    } //Fab end
+    //
+    //
+}

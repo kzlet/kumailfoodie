@@ -1,0 +1,124 @@
+page-reservation-form {
+    .toolbar-background {
+        border-color: color($colors, dinerPink);
+        background: color($colors, dinerPink);
+    }
+    ion-header ion-icon {
+        color: color($colors, dinerWhite);
+    }
+    ion-header .toolbar .bar-button-menutoggle .button-inner {
+        color: color($colors, dinerWhite);
+    }
+    ion-header .left-head-icon {
+        background: transparent;
+        float: right;
+        box-shadow: none;
+    }
+    ion-header .left-head-icon.activated {
+        background: transparent;
+        box-shadow: none;
+    }
+    ion-header .left-head-icon ion-icon {
+        font-size: 24px;
+    }
+    ion-header {
+        text-align: center;
+    }
+    .logo-head {
+        width: 50%;
+        margin-top: 3%;
+    } //
+    //header end
+    .middle-right {
+        width: 25%;
+        float: right;
+        margin-top: 5%;
+    }
+    .middle-txt {
+        float: left;
+        width: 60%;
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+    .middle-txt p {
+        margin: auto;
+        width: 80%;
+        float: left;
+        color: color($colors, dinerGrey);
+    }
+    .middle-txt h3 {
+        margin: auto;
+        width: 90%;
+        float: left;
+        color: color($colors, dinerPink);
+    } //Input
+    .input-div {
+        /* position: relative; */
+        /* top: 10%; */
+        float: left;
+        width: 100%;
+        margin-top: 8%;
+    } //Placeholder ->
+    .input-item-custom input::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: color($colors, dinerGrey)
+    }
+    .input-item-custom input::-moz-placeholder {
+        /* Firefox 19+ */
+        color: color($colors, dinerGrey)
+    }
+    .input-item-custom input:-ms-input-placeholder {
+        /* IE 10+ */
+        color: color($colors, dinerGrey)
+    }
+    .input-item-custom input:-moz-placeholder {
+        /* Firefox 18- */
+        color: color($colors, dinerGrey)
+    } //Placeholder <-
+    .input-item-custom {
+        margin: auto;
+        padding: 0px;
+        width: 90%;
+        border-bottom: 1px solid color($colors, dinerGrey);
+    }
+    .input-item-custom input {
+        text-align: center;
+        color: color($colors, dinerGrey)
+    }
+    .input-item-custom .item-inner {
+        border: none !important;
+    }
+    .input-item-custom.input-has-focus .item-inner {
+        text-align: center;
+        border-bottom-color: color($colors, dinerPink) !important;
+        box-shadow: none !important;
+    } //
+    //
+    //Custom-btn
+    //
+    .custom-div-btn {
+        width: 100%;
+        float: left;
+        margin-top: 5%;
+    }
+    .custom-btn {
+        width: 40%;
+        margin: auto;
+        height: 44px;
+        padding-top: 4%;
+        padding-left: 3%;
+        color: color($colors, dinerWhite);
+        background: color($colors, dinerPink);
+    }
+    .custom-btn p {
+        margin: auto;
+        float: left;
+    }
+    .custom-btn i {
+        float: left;
+        margin-right: 4%;
+    } //
+    //
+    //Custom-btn
+    //
+}

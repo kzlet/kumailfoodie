@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <img class="logo-head" src="assets/imgs/logo.png">
+    <button ion-button class="left-head-icon">
+      <ion-icon class="icon-bag"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="middle-right">
+    <img src="assets/imgs/image4.png">
+  </div>
+
+  <div class="middle-txt">
+    <h3>Reservation</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has </p>
+  </div>
+
+
+  <div class="input-div">
+    <ion-list>
+      <ion-item class="input-item-custom">
+        <ion-input type="text" placeholder="Resturant"></ion-input>
+      </ion-item>
+
+      <ion-item class="input-item-custom">
+        <ion-input type="text" placeholder="Seats"></ion-input>
+      </ion-item>
+
+      <ion-item class="input-item-custom">
+        <ion-input type="text" placeholder="Timings"></ion-input>
+      </ion-item>
+
+      <ion-item class="input-item-custom">
+        <ion-input type="text" placeholder="Number of Persons"></ion-input>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div class="custom-div-btn" (click)="gotoRestaurantListing()">
+    <div class="custom-btn">
+      <i class="icon-notebook"></i>
+      <p>Reserve Now</p>
+    </div>
+  </div>
+
+
+
+</ion-content>

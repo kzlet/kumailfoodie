@@ -1,0 +1,135 @@
+page-cart {
+    //
+    //
+    //Header Start
+    .checkout-head {
+        background: color($colors, dinerPink);
+    }
+    .head-head-icon i {
+        color: color($colors, dinerWhite);
+        font-size: 25px;
+        top: 2%;
+        position: relative;
+        top: 25%;
+        left: 3%;
+    }
+    .head-head-icon {
+        height: 31px;
+    }
+    .check-title {
+        margin-top: 10%;
+    }
+    .check-title p {
+        color: color($colors, dinerWhite);
+        text-align: center;
+        font-size: 22px;
+        margin: auto;
+    }
+    .price {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 10%
+    } //
+    //Header End
+    //
+    //
+    .left-side {
+        width: 25%;
+        float: left;
+    }
+    .middle-side {
+        width: 60%;
+        float: left;
+    }
+    .right-side {
+        width: 15%;
+        float: left;
+    }
+    .cart-items ion-item {
+        padding: 0px !important;
+    }
+    .cart-items ion-item .item-inner {
+        padding: 0px !important;
+    }
+    .cart-items ion-item .item-inner ion-label {
+        margin-right: 0px;
+    }
+    .cart-items ion-item.content-title {
+        color: color($colors, dinerPink);
+        font-size: 22px;
+    }
+    .left-side p {
+        float: left;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 22px;
+        color: color($colors, dinerYellow);
+    }
+    .left-side ion-icon {
+        float: left;
+        margin-top: 4%;
+        color: color($colors, dinerPink);
+    }
+    .middle-side p {
+        font-size: 15px;
+        margin-top: 3%;
+    }
+    .right-side p {
+        color: color($colors, dinerGrey);
+        margin-top: 18%;
+    }
+    .total-div {
+        width: 100%;
+        float: left;
+        margin-top: 5%;
+    }
+    .para1 {
+        width: 70%;
+        float: left;
+        font-size: 16px;
+        text-align: right;
+        margin: auto;
+    }
+    .price-p {
+        width: 20%;
+        float: right;
+        color: #777575;
+        text-align: left;
+        margin: auto;
+        margin: 1%;
+    }
+    .total-p {
+        color: color($colors, dinerPink);
+    }
+    .sec-dics {
+        margin: auto !important;
+    } //
+    //
+    //Custom-btn
+    //
+    .custom-div-btn {
+        width: 100%;
+        float: left;
+        margin-top: 5%;
+    }
+    .custom-btn {
+        width: 70%;
+        margin: auto;
+        height: 44px;
+        padding-top: 4%;
+        padding-left: 3%;
+        color: color($colors, dinerWhite);
+        background: color($colors, dinerPink);
+    }
+    .custom-btn p {
+        margin: auto;
+        float: left;
+    }
+    .custom-btn i {
+        float: left;
+        margin-right: 4%;
+    } //
+    //
+    //Custom-btn
+    //
+}
